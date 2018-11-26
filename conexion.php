@@ -1,8 +1,7 @@
 <?php
-//Datos de conexion   direccion,   usuario,   password, base de datos 
-//$mysqli = new mysqli('localhost', 'root', '', 'mateuson');
-//$mysqli = new mysqli('localhost', 'adrianvo', '', 'test');
-$mysqli = new mysqli('localhost', 'registro', 'mnj55Wib', 'mateuson');
+//Datos de conexion   direccion,   usuario,   password, base de datos
+$mysqli = new mysqli('localhost', 'root', 'root', 'telefonia');
+
 
 /*
  * Esta es la forma OO "oficial" de hacerlo,
