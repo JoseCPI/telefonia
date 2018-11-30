@@ -19,5 +19,5 @@ $tipo=$mysqli->real_escape_string($tipo);
 $tabla=$mysqli->query("insert into linea values ('".$tel."','".$nif."','".$tipo."')");
 
 $mysqli->close();//cierra la conexion de mysql
-header('Location: index.php');
+header('Location: mostrar_linea.php');
 ?>
