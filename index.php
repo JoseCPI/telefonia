@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Administrar Libro</title>
+		<title>Administrar Telefonia</title>
 	</head>
 	<body>
 		<header>
