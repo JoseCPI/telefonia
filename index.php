@@ -1,36 +1,27 @@
 <html>
- <head>
-  <title>Prueba de PHP</title>
- </head>
- <body>
- <?php
- echo 'Hola Mundo' ;
-
- echo "<div class='container-fluid' style='padding-top:15px;'>
-             <div class='panel panel-info'>
-             <div class='panel-heading' style='text-align:center;'>";
-
- echo "<table border='1' id='tablaUS' class='table table-striped table-hover table-bordered'>
-                <thead>
-                    <th>Nombre</th>
-                    <th>Apellido Paterno</th>
-                    <th>Apellido Materno</th>
-                    <th>Institucion</th>
-                    <th>Tipo</th>
-                    <th>Folio</th>
-                    <th>Verificacion</th>
-                </thead>";
-
-                echo "<tr>
-                        <td>jj</td>
-                        <td>pp</td>
-                        <td>ii</td>
-                        <td>us</td>
-                        <td>al</td>
-                        <td>023</td>
-                        <td>asd</td>
-                    </tr>";
-echo"</table>";
- ?>
- </body>
+	<head>
+		<title>Administrar Libro</title>
+	</head>
+	<body>
+		<header>
+			Bienvenido Administrar Libro
+		</header>
+		<table border=1>
+			<tr>
+				<td><a href="ingresar_cliente.php">Ingresar Cliente</a></td>
+			</tr>
+      <tr>
+				<td><a href="ingresar_linea.php">Ingresar Linea</a></td>
+			</tr>
+			<tr>
+				<td><a href="mostrar_clientes.php">Ver Cliente</a></td>
+			</tr>
+      <tr>
+				<td><a href="mostrar_linea.php">Ver Linea</a></td>
+			</tr>
+		</table>
+		<footer>
+			Administrar Telefonia
+		</footer>
+	</body>
 </html>

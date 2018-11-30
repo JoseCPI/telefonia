@@ -1,0 +1,75 @@
+body{
+background-color: #eae9e7;
+margin: 0;
+padding: 0;
+padding-top: 20px;
+font-family: calibri;
+}
+
+#contenedor{
+border-radius: 10px 10px 0 0;
+margin:auto;
+width:900px;
+box-shadow: 0 0 15px #bbb;
+}
+
+#header{
+padding: 15px;
+border-radius: 10px 10px 0 0;
+margin-top: 8px;
+background-color: lightblue;
+text-align: center;
+}
+
+#header img{
+margin-top: 5px;
+width:100px;
+}
+
+#header span{
+font-size: 30px;
+}
+
+#Registro{
+margin-top: 5px;
+padding: 10px;
+background-color: white;
+}
+.titulo{
+color:blue;
+text-align: left;
+font-weight: bold;
+}
+.input{
+border: 1px solid #DBE1EB;
+font-size: 18px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-o-border-radius: 4px;
+background: #FFFFFF;
+background: linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+color: #2E3133;
+}
+#personal{
+margin-top: 20px;
+text-align: center ;
+}
+#cursos{
+padding: 10px;
+background-color: white;
+}
+
+
+
+
+
+
+
