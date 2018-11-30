@@ -3,7 +3,7 @@
   <title>Prueba de PHP</title>
  </head>
  <body>
- <?php
+<?php
     include 'conexion.php';
 
 
@@ -26,11 +26,14 @@
             <td>".$row['nombre']."</td>
             <td>".$row['apellido']."</td>
             <td>".$row['direccion']."</td>
+            <td><a href='I_lineaDeCliente.php?id=".$row['NIF']."' alt='edit'>Agregar Linea</a></td>
+            <td><a href='D_cliente.php?id=".$row['NIF']."' alt='edit'>Eliminar</a></td>
           </tr>";
         }
         echo"</table>";
     }
 
+    echo '<a href="index.php">Volver</a>';
 
 
  ?>
