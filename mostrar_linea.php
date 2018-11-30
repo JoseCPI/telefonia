@@ -28,6 +28,9 @@
             <td>".$row['nombre']."</td>
             <td>".$row['num_telefono']."</td>
             <td>".$row['tipo_linea']."</td>
+            <td><a href='Ingresar_llamada.php?id=".$row['num_telefono']."' alt='edit'>Agregar Llamada</a></td>
+            <td><a href='mostrar_llamada.php?id=".$row['num_telefono']."' alt='edit'>Ver Llamadas</a></td>
+            <td><a href='D_Linea.php?id=".$row['num_telefono']."' alt='edit'>Eliminar</a></td>
           </tr>";
         }
         echo"</table>";
