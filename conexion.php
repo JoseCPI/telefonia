@@ -1,6 +1,6 @@
 <?php
 //Datos de conexion   direccion,   usuario,   password, base de datos
-$mysqli = new mysqli('localhost', 'root', '', 'CompaniasTelefonicas');
+$mysqli = new mysqli('localhost', 'root', '', 'Telefonia');
 
 
 if(!$mysqli){

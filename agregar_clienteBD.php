@@ -16,7 +16,7 @@ $nombre=$mysqli->real_escape_string($nombre);
 $direccion=$mysqli->real_escape_string($direccion);
 
 //en la linea siguiente ingresa los datos del nuevo cliente a la tabla curso en la BD
-$tabla=$mysqli->query("insert into cliente values ('".$nif."','".$apellido."','".$nombre."','".$direccion."')");
+$tabla=$mysqli->query("insert into cliente (NIF, apellido, nombre, direccion) values ('".$nif."','".$apellido."','".$nombre."','".$direccion."')");
 
 $mysqli->close();//cierra la conexion de mysql
 header('Location: index.php');
