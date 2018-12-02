@@ -37,10 +37,10 @@
 <div class="container-fluid text-center">
     <div class="row content">
         <div class="col-sm-2 sidenav">
-            <p><a href="ingresar_cliente.php">Ingresar Cliente</a></p>
-            <p><a href="ingresar_linea.php">Ingresar Linea</a></p>
-            <!-- <p><a href="mostrar_clientes.php">Ver Cliente</a></p> -->
-            <p><a href="mostrar_linea.php">Ver Linea</a></p>
+            <p><a href="ingresar_cliente.php"class="btn btn-success">Ingresar Cliente</a></p>
+            <p><a href="ingresar_linea.php" class="btn btn-success">Ingresar Linea</a></p>
+            <!-- <p><a href="index.php" class="btn btn-info">Lista de Clientes</a></p> -->
+            <p><a href="mostrar_linea.php" class="btn btn-info">Lista de Linea</a></p>
         </div>
         <div class="col-sm-8 text-left">
             <h1>Compañias Telefonicas</h1>
