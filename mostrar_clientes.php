@@ -5,9 +5,6 @@
  <body>
 <?php
     include 'conexion.php';
-
-
-
     $tabla=$mysqli->query("select * from cliente");
     mysqli_close($mysqli);
 
