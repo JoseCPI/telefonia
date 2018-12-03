@@ -10,7 +10,7 @@
 
     $tabla=$mysqli->query("select c.apellido ,c.nombre, l.num_telefono, l.tipo_linea
                             from cliente c join linea l
-                            on c.nif=l.nif_cliente;");
+                            on c.id_cliente=l.id_cliente;");
     mysqli_close($mysqli);
 
     if ($tabla->num_rows > 0) {
