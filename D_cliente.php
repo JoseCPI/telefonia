@@ -17,14 +17,14 @@ if($tabla->num_rows == 0){
   $mysqli->close();
   echo "<script>
         alert('El cliente ha sido eliminado exitosamente');
-        window.location.href='mostrar_clientes.php';
+        window.location.href='index.php';
         </script>";
   //header('Location: mostrar_clientes.php');
 }else {
   $mysqli->close();
   echo "<script>
         alert('El cliente no se puede eliminar ya que tiene llamadas registradas');
-        window.location.href='mostrar_clientes.php';
+        window.location.href='index.php';
         </script>";
 }
 ?>

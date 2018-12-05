@@ -8,6 +8,7 @@ Ingresa los datos del Linea
 <form action='agregar_lineaBD.php' method='post'>
 	<table>
 		<tr>
+			<!--ARREGLAR ESTO PARA QUE SALGA UN DROPBOX CON LOS CLIENTES QUE ESTAN EN LA BASE DE DATOS-->
 			<td>NIF Cliente:</td>
 			<td> <input type='text' name='nif'></td>
 		</tr>
