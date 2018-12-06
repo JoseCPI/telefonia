@@ -61,7 +61,10 @@
                                         "</td><td>".$row['direccion'].
 
                                         "</td><td><a href='I_lineaDeCliente.php?id=".$row['id_cliente'].
-                                        "alt='edit' class='btn btn-primary'>Agregar Linea</a>
+                                        "' alt='edit' class='btn btn-primary'>Agregar Linea</a>
+
+                                        </td><td><a href='ActCliente.php?id=".$row['id_cliente'].
+                                        "' alt='edit' class='btn btn-primary'>Actualizar</a>
 
                                         </td><td><a href='D_cliente.php?id=".$row['id_cliente'].
                                         "' alt='edit' class='btn btn-danger'>Eliminar</a></td></tr>";
