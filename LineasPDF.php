@@ -9,7 +9,7 @@ function Header()
     // Title
     $str=utf8_decode("ñ");
     $this->SetFont('Arial','',18);
-    $this->Cell(0,6,'Clientes de la Compa'.$str.'ia',0,1,'C');
+    $this->Cell(0,6,'Lineas de la Compa'.$str.'ia',0,1,'C');
     $this->Ln(10);
     // Ensure table header is printed
     parent::Header();
