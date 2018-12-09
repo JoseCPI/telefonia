@@ -35,15 +35,15 @@
             <div class="col-sm-8 text-left">
               <form action='agregar_llamadaBD.php' method='post'>
                 <div class="form-group">
-                  <input type="hidden" class="form-control" name="num_salida" value="<?php echo $num_salida ?>">
+                  <input type="hidden" class="form-control" name="num_saliente" value="<?php echo $num_salida ?>">
                 </div>
 								<div class="form-group">
                   <label for="IngreseNumD">Ingrese Numero de Destino</label>
-                  <input type="text" class="form-control" name="tel_destino" id="IngreseNumD" placeholder="Ej. 6622123456">
+                  <input type="text" class="form-control" name="num_destino" id="num_destino" placeholder="Ej. 6622123456">
                 </div>
                 <div class="form-group">
                   <label for="IngreseCos">Ingrese Costo de la llamada</label>
-                  <input type="text" class="form-control" name="costo" id="IngreseCos" placeholder="0.00">
+                  <input type="text" class="form-control" name="costo" id="costo" placeholder="0.00">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>

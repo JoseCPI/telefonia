@@ -1,7 +1,7 @@
 <?php
 
-$num_saliente = $_POST["num_salida"];
-$num_destino =$_POST["tel_destino"];
+$num_saliente = $_POST["num_saliente"];
+$num_destino =$_POST["num_destino"];
 $costo = $_POST["costo"];
 
 include 'conexion.php';//abre concexion con mysql
